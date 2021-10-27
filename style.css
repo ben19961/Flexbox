@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+.product{
+    background-image: url("https://cdn.wallpapersafari.com/1/12/ORD5GB.jpg");
+    background-size: cover;
+    min-height: 150px;
+    max-width: 250px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 8px;
+}
+
+h1,p{
+    margin: 4px;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: right;
+    color: white;
+    background-color: lightseagreen;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 400px;
+}
+
+#footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: lightseagreen;
+    padding: 20px;
+    border-top: 2px;
+    color: white;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+
+
+}
